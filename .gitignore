@@ -1,0 +1,31 @@
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Original images and annotations
+smoke_images/
+smoke_labels/
+negative_images/
+negative_labels/
+
+# Generated training datasets
+datasets/
+
+# YOLO training and evaluation outputs
+experiments/
+evaluations/
+runs/
+
+# Model checkpoints
+*.pt
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# Generated YOLO training results
+smoke_training/
